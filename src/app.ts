@@ -76,6 +76,7 @@ app.all('*', (req, res) => {
   res.status(404).json({ message: messages.errors.urlNotFound });
 });
 
+console.log(__dirname);
 //server 
 app.listen(app.get('port'), () => {
   console.log(`Listening at port ${app.get('port')}`);

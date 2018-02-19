@@ -8,5 +8,8 @@ module.exports = {
   output: {
     filename: 'server.js'
   },
-  target: 'node'
+  target: 'node',
+  node: {
+    __dirname: true
+  }
 };

@@ -1,18 +1,22 @@
 {
   "compilerOptions": {
-		"moduleResolution": "node",
+    "moduleResolution": "node",
     "module": "es2015",
     "target": "es5",
     "noImplicitAny": false,
     "sourceMap": false,
-		"experimentalDecorators": true,
-		"emitDecoratorMetadata": true,
-		"lib": [
-			"es2016",
-			"dom"
-		],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [
+      "es2016",
+      "dom"
+    ],
     "typeRoots": [
       "node_modules/@types"
+    ],
+    "types": [
+      "node",
+      "mocha"
     ]
   },
   "include": [
